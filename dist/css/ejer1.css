@@ -1,0 +1,83 @@
+body{
+    background:  linear-gradient(90deg, rgb(12, 141, 96) 0%, rgb(96, 17, 135) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.custom-card{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.a {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    text-align: center;
+    font-size: 32px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:rgb(149, 5, 5);
+    
+  }
+  /* comentario en css XD */
+.navbar {
+    /* color del fondo */   
+    background: linear-gradient(90deg, rgb(12, 141, 96) 0%, rgb(96, 17, 135) 100%);
+}
+.navbar-brand img {
+    /* Tamaño de la imagen */
+    width: 15%;
+    height: auto;
+    margin-right: 10px;
+}
+.navbar-brand {
+    /* Texto alado de la imagen */
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link {
+    /* links o ( Inicio , Productos , Servicios , Contactos) */
+    color: rgb(84, 21, 21) !important;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 0.7%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+/*carrusel*/
+.carousel-item img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+/*carrusel*/
+.texto-UwU{
+    color: rgb(69, 78, 4);
+    font-size: 6vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 4px 10px 8px rgba(40, 40, 40, 0.5);
+    transition: color 1s ease, text-shadow 1s ease; /* Transición suave para color y sombra */
+}
+
+.texto-UwU:hover {
+    color: rgb(241, 89, 165); /* Cambia el color del texto al pasar el cursor */
+    text-shadow: 4px 10px 12px rgba(255, 0, 0, 0.7); /* Cambia la sombra del texto al pasar el cursor */
+}
+.imagen{
+    width: 60%;
+    height: auto;
+    border: 2px solid #e46262;
+    border-radius: 24px;
+    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.5);
+    margin: 20px;
+}
+.imagen:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}

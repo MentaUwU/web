@@ -3,13 +3,13 @@
 
     // Función para encender la bombilla
     function encender() {
-      imagen.src = "main/dist/img/Bocchi 1.ico"; // Cambiar la imagen a la bombilla encendida
+      imagen.src = "dist/img/Bocchi 1.ico"; // Cambiar la imagen a la bombilla encendida
       hablar("La bombilla se ha encendido"); // Llamar a la función hablar con el mensaje
     }
 
     // Función para apagar la bombilla
     function apagar() {
-      imagen.src = "main/dist/img/Bocchi 2.ico"; // Cambiar la imagen a la bombilla apagada
+      imagen.src = "dist/img/Bocchi 2.ico"; // Cambiar la imagen a la bombilla apagada
       hablar("La bombilla se ha apagado"); // Llamar a la función hablar con el mensaje
     }
 

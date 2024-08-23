@@ -1,5 +1,5 @@
 body{
-    background-image: url(/egl/dist/img/fondo.png);
+    background-image: url(/main/dist/img/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

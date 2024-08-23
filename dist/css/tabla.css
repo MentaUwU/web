@@ -1,5 +1,5 @@
-body{
-    background-image: url(/dist/img/fondo.png);
+body {
+    background-image: url('https://mentauwu.github.io/web/dist/img/fondo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

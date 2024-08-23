@@ -1,9 +1,10 @@
-body{
-    background-image: url('https://<MentaUwU>.github.io/<main>/main/dist/img/1254111.jpg');
+body {
+    background-image: url('https://mentauwu.github.io/web/dist/img/1254111.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .custom-card{
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 24px;
